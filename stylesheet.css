@@ -1,0 +1,284 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ヘッダー */
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34,49,52,0.9);
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+}
+
+.logo {
+	width: 124px;
+	height: 65px;
+	margin-top: 10px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+  	float: right;
+  	background-color: rgba(255,255,255,0.3);
+  	transition: all 0.5s;
+}
+
+.header-right:hover {
+  	background-color: rgba(255,255,255,0.5);
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+}
+
+#menu {
+	display: none;
+}
+
+/* 一番上 */
+/*.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+*/
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	padding-top: 180px;
+	padding-bottom: 100px;
+	background-image: url(./image/pokemon.png);
+	background-size: cover;
+	color: white;
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-left: 650px; /* 要点検　*/
+}
+
+.top-wrapper p {
+	opacity: 0.7;
+	font-size: 14px;
+	margin-bottom: 35px;
+}
+
+/* コンテンツ */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-size: 30px;
+}
+
+.heading p {
+  font-weight: normal;
+}
+
+.lesson {
+	float: left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative;
+	right: 10%;
+	cursor: pointer;
+}
+
+.lesson-icon:hover {
+
+}
+
+.ball {
+	float: left;
+	width: 25%;
+}
+
+.txt-contents {
+	width: 100%;
+	display: inline-block;
+	color: #b3aeb5;
+}
+
+.profile-modal-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	display: none;
+	overflow-y: scroll;
+}
+
+.like-modal-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	display: none;
+	overflow-y: scroll;
+}
+
+.gallary-modal-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	display: none;
+	overflow-y: scroll;
+}
+
+.modal-p {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.modal-l {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.modal-g {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#like-form h3 {
+	position: relative;
+	right: 180px;
+}
+
+.history {
+	margin-top: 10px;
+}
+
+.Lab {
+	float: left;
+	margin-left: 10px;
+}
+
+.sotsuron {
+	float: right;
+	margin-right: 10px;
+}
+
+.nara {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.wedding {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.intense {
+	cursor: pointer;
+}
+
+/* フッター　*/
+.sns {
+	margin-bottom: 10px;
+}
+
+.button {
+	padding: 8px 8px 8px 8px;
+	color: white;
+	display: inline-block;
+	border-radius: 8px;
+	float: left;
+	cursor: pointer;
+}
+
+.facebook {
+	background-color: #3b5998;
+	margin-right: 200px;
+}
+
+.twitter {
+	background-color: #55acee;
+	margin-right: 200px; 
+}
+
+.instagram {
+	background-color: #3f729b;
+	margin-right: 200px;
+}
+
+.github {
+	background-color: #ff9933;
+}
+
+.clear {
+	clear: both;
+}
+
+.copy-right {
+	text-align: center;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>もーりーのほーむぺーじ</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<!--	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script  type="text/javascript" src="js/jquery.jrumble.1.3.js"></script> -->
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-left">
+				<img class="logo" src="./image/hitpoint.png">
+			</div>
+			<div class="header-right">
+				<a href="#" class="login">メニュー</a>
+				<ul style="list-style:none;" id="menu">
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Like</a></li>
+					<li><a href="#">Gallary</a></li>
+					<li><a href="http://blog.livedoor.jp/mori_0312/">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="top-wrapper">
+		<div class="container">
+			<h1 class="demo">もーりー、<br>ホームページ<br>はじめたってよ</h1>
+		</div>
+		
+	</div>
+	<div class="lesson-wrapper">
+		<div class="container">
+			<div class="heading">
+				<p>もーりーです！！<br>気になるボールをクリック！！</p>
+			</div>
+			<div class="lessons">
+				<div class="lesson">
+					<div class="lesson-icon" id="profile-show">
+						<img src="./image/hyperball.png">
+					<!--	<img class="ball mew" src="./image/151.gif" width="130" height="130"> -->
+					</div>
+					<h2>Profile</h2>
+					<p class="txt-contents">
+						もーりーの自己紹介<br>
+
+					</p>
+				</div>
+				<div class="profile-modal-wrapper" id="profile-modal">
+					<div class="modal-p">
+						<div class="close-modal">
+        					<i class="fa fa-2x fa-times"></i>
+      					</div>
+
+						<div id="profile-form">
+							<h2>Profile</h2>
+							<img src="./image/IMG_0384.png" width="350px" height="350px">
+							<div class="history">
+								1991/3/12 Happy Birthday!!<br>
+								2003~2006 Junior High School Student in Seishin<br>
+								2006~2009 High School Student in Seishin<br>
+								2009~2010 Sundai・・・<br>
+								2010~2015 Keio Boy!!<br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lesson">
+					<div class="lesson-icon" id="like-show">
+						<img src="./image/hyperball.png">
+					<!--	<img class="ball miltank" src="./image/.png"> -->
+					</div>
+					<h2>Like</h2>
+					<p class="txt-contents">
+						もーりーの好きなもの<br>
+						趣味が合うと嬉しい<br>
+						随時更新（予定）<br>
+					</p>
+				</div>
+				<div class="like-modal-wrapper" id="like-modal">
+					<div class="modal-l">
+						<div class="close-modal">
+        					<i class="fa fa-2x fa-times"></i>
+      					</div>
+						<div id="like-form">
+						<!--	<img src="./image/Paper Mario.icns" class="mario">
+							<img src="./image/kirby.png" class="kirby"> -->
+							<h2>Like</h2>
+							ここらへんはブログに詳しく書いてるから読んでね！
+							<h3>Game</h3>
+							ポケモン、FF、ドラクエとかRPGが好き<br>
+							最近はスプラトゥーンにはまってる<br>
+							ポケモンは全キャラ集めたことあるよ！！<br>
+							<h3>Book</h3>
+							漫画（萌え以外）はすごい読む、１５００冊くらいあった<br>
+							最近のお気に入りは「ばらかもん」<br>
+							HUNTER×HUNTER連載再開してよかったね<br>
+							<h3>Music</h3>
+							クラシックとロックが好き<br>
+							クラシックならロシア系、ロックならBUMPが好き<br>
+							BUMPの２０周年ライブ行けなかったの今でも辛い<br>
+							<p class="like-comment">割と収集癖あるのでゲーム、漫画、音楽とかとにかく集めがち</p>
+						</div>
+					</div>
+				</div>
+				<div class="lesson">
+					<div class="lesson-icon" id="gallary-show">
+						<img src="./image/hyperball.png">
+					<!--	<img class="ball arceus" src="./image/.png"> -->
+					</div>
+					<h2>Gallary</h2>
+					<p class="txt-contents">
+						もーりーの日常<br>
+						顔写真少なめ<br>
+						非リアです<br>
+					</p>
+				</div>
+				<div class="gallary-modal-wrapper" id="gallary-modal">
+					<div class="modal-g">
+						<div class="close-modal">
+        					<i class="fa fa-2x fa-times"></i>
+      					</div>
+						<div id="gallary-form">
+						<h2>Gallary</h2>
+						<p>自分が写ってるの探したけど全然なかった<br>画像クリックできるよ</p>
+						<div class="Lab">
+							<img src="./image/Lab.png" width="200px" height="200px" class="Lab-image intense">
+							<p>ラボの同期<br>このころ痩せてる</p>
+						</div>
+						<div class="sotsuron">
+							<img src="./image/sotsuron.png" width="200px" height="200px" class="sotsuron-image intense">
+							<p>串工で卒論終わり飲み<br>白レバーがおいしい</p>
+						</div>
+						<div class="clear"></div>
+						<div class="nara">
+							<img src="./image/nara.png" width="200px" height="200px" class="nara-image intense">
+							<p>西日本１人旅<br>シカとの自撮り恥ずかしかった</p>
+						</div>
+						<div class="wedding">
+							<img src="./image/wedding.png" width="200px" height="200px" class="wedding-image intense">
+							<p>友達の結婚式<br>めっちゃリア充っぽい</p>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="lesson">
+					<div class="lesson-icon">
+						<a href="http://blog.livedoor.jp/mori_0312/">
+							<img src="./image/hyperball.png">
+						</a>
+					<!--	<img class="ball darkrai" src="./image/.png"> -->
+					</div>
+					<h2>Blog</h2>
+					<p class="txt-contents">
+						もーりーのブログ<br>
+						非定期更新<br>
+						リクエスト募集中<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="message-wrapper">
+		<div class="container">
+			<div class="long-message">
+				
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="sns">
+			<a href="https://www.facebook.com/masataka.moriyama.37" class="button facebook">
+				<span class="fa fa-facebook fa-5x"></span>
+			</a>
+			<a href="https://twitter.com/fm0312" class="button twitter">
+				<span class="fa fa-twitter fa-5x"></span>
+			</a>
+			<a href="https://www.instagram.com/m0r1_mory/" class="button instagram">
+				<span class="fa fa-instagram fa-5x"></span>
+			</a>
+			<a href="https://github.com/moriyama0312" class="button github">
+				<span class="fa fa-github-square fa-5x"></span>
+			</a> 
+			<div class="clear"></div>
+		</div>
+		<div class="copy-right">
+			<h3>Copyright もーりー</h3>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jrumble.1.3.min.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script type="text/javascript" src="js/jquery.textillate.js"></script>
+	<script type="text/javascript" src="js/jquery.shuffleLetters.js"></script>
+	<script src="js/t.min.js"></script>
+	<script src="js/intense.min.js"></script>
+	<script src="javascript.js"></script>
+</body>
+</html>
